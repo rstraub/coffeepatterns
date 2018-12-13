@@ -1,7 +1,7 @@
 package com.coffeepatterns.abstractfactory.products;
 
 public abstract class Lungo extends Coffee {
-    public Lungo() {
+    Lungo() {
         super(150);
     }
 }

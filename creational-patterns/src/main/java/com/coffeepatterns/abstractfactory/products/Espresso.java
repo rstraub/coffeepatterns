@@ -1,7 +1,7 @@
 package com.coffeepatterns.abstractfactory.products;
 
 public abstract class Espresso extends Coffee {
-    public Espresso() {
+    Espresso() {
         super(30);
     }
 }
