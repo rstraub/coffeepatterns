@@ -9,9 +9,12 @@ class CoffeeBrewer {
         this.coffeeFactory = factory;
     }
 
-    void brewCoffees() {
-        coffeeFactory.createEspresso().brew();
-        coffeeFactory.createLungo().brew();
+    String brewEspresso() {
+        return coffeeFactory.createEspresso().brew();
+    }
+
+    String brewLungo() {
+        return coffeeFactory.createLungo().brew();
     }
 
     void setCoffeeFactory(CoffeeFactory coffeeFactory) {

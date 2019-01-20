@@ -7,7 +7,7 @@ public abstract class Coffee {
         this.amount = amount;
     }
 
-    public abstract void brew();
+    public abstract String brew();
 
     public int getAmount() {
 

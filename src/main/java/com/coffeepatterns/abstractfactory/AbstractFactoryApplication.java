@@ -8,8 +8,8 @@ public class AbstractFactoryApplication {
         System.out.println("Ready to brew\n---------------");
 
         CoffeeBrewer brewer = new CoffeeBrewer(new ArabicaFactory());
-        brewer.brewCoffees();
+        brewer.brewEspresso();
         brewer.setCoffeeFactory(new RobustaFactory());
-        brewer.brewCoffees();
+        brewer.brewEspresso();
     }
 }
